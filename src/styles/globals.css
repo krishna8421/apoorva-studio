@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f2f2f2;
+  --foreground: #111111;
+}
+
+@theme inline {
+  --color-primary-background: var(--background);
+  --color-primary-foreground: var(--foreground);
+  --color-primary-pink: #b09bdb;
+  --color-primary-purple: #7362da;
+  --color-primary-dark-gray: #545454;
+  --font-nunito: var(--font-nunito);
+  --font-skillet-condensed: var(--font-skillet-condensed);
+}
