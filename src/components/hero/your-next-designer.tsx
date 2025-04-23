@@ -8,9 +8,9 @@ const YourNextDesigner = () => {
         your next designer, let&apos;s find out?
       </span>
       <div className="flex flex-col gap-5 px-3 py-5 border-4 w-[18rem] border-primary-pink bg-white">
-        <div className="flex gap-2">
+        <div className="flex gap-2 shrink-0">
           <Image
-            src="/apoorva.png"
+            src="/images/homepage/apoorva-icon.png"
             alt="Apoorva Logo"
             width={46}
             height={52}

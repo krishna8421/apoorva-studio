@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f2f2f2;
+  --background: #fefefe;
   --foreground: #111111;
 }
 
@@ -13,4 +13,29 @@
   --color-primary-dark-gray: #545454;
   --font-nunito: var(--font-nunito);
   --font-skillet-condensed: var(--font-skillet-condensed);
+}
+
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  --animate-spill-coffee: spill-coffee ease-in infinite;
+
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+
+  @keyframes spill-coffee {
+    0% {
+      transform: rotate(-3deg);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+  }
 }

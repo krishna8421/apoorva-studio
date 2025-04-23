@@ -43,7 +43,7 @@ const DraggableWrapper = ({
       {snapPosition && (
         <motion.div
           className={cn(
-            "absolute rounded-lg border border-dashed",
+            "absolute border border-dashed",
             "border-slate-300",
             "bg-slate-100/50",
             "shadow-inner"

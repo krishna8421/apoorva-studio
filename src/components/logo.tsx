@@ -12,7 +12,7 @@ type LogoProps = {
 const Logo = ({ width = 96, height = 96, className, ...props }: LogoProps) => {
   return (
     <Image
-      src="/logo.png"
+      src="/images/global/logo-bold.png"
       alt="Apoorva Logo"
       width={width}
       height={height}
